@@ -25,15 +25,15 @@ var SpeechRecognition = window.webkitSpeechRecognition;
 var recognition = new SpeechRecognition();
 function preload() 
 {
-  sun_img = loadImage("/Planets_gifs/SUN.gif");
-  mercury_img = loadImage("/Planets_gifs/MERCURY.gif");
-  venus_img = loadImage("/Planets_gifs/VENUS.gif");
-  earth_img = loadImage("/Planets_gifs/EARTH.gif");
-  mars_img = loadImage("/Planets_gifs/MARS.gif");
-  jupiter_img = loadImage("/Planets_gifs/JUPITER.gif");
-  saturn_img = loadImage("/Planets_gifs/SATURN.gif");
-  uranus_img = loadImage("/Planets_gifs/URANUS.gif");
-  neptune_img = loadImage("/Planets_gifs/NEPTUNE.gif");
+  sun_img = loadImage("SUN.gif");
+  mercury_img = loadImage("MERCURY.gif");
+  venus_img = loadImage("VENUS.gif");
+  earth_img = loadImage("EARTH.gif");
+  mars_img = loadImage("MARS.gif");
+  jupiter_img = loadImage("JUPITER.gif");
+  saturn_img = loadImage("SATURN.gif");
+  uranus_img = loadImage("URANUS.gif");
+  neptune_img = loadImage("NEPTUNE.gif");
   //solar_system_video = createVideo("/Planets_gifs/solar_system.mp4");
   //solar_system_video.hide();
 }
